@@ -3,7 +3,7 @@ module.exports = {
     siteTitle: `Only You`,
     siteTitleAlt: `Only You | Long Nhat Nguyen`,
     siteHeadline: `Only You | Long Nhat Nguyen`,
-    siteUrl: `https://only-you.netlify.app`,
+    siteUrl: `https://onlyyou.netlify.app`,
     siteDescription: "Photos by Long Nhat Nguyen",
     siteLanguage: `en`,
     author: `@torn4dom4n`,
