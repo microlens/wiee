@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "onlyyou",
+  "description": "Photos by Long Nhat Nguyen",
+  "version": "1.2.0",
+  "author": "Long Nhat Nguyen",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@lekoarts/gatsby-theme-emilia": "3.0.12",
+    "gatsby": "4.22.0",
+    "gatsby-plugin-manifest": "4.22.0",
+    "gatsby-plugin-sitemap": "5.22.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
