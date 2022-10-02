@@ -5,8 +5,8 @@ module.exports = {
     siteHeadline: `Only You | Long Nhat Nguyen`,
     siteUrl: `https://onlyyou.netlify.app`,
     siteDescription: "Photos by Long Nhat Nguyen",
-    siteLanguage: `en`,
-    author: `@torn4dom4n`,
+    siteImage: `/banner.jpg`,
+    author: `@retro90s`,
   },
   plugins: [
     {
@@ -31,7 +31,10 @@ module.exports = {
         description: `Photos by Long Nhat Nguyen`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#3182ce`,
+        background_color: `#fff`,
+        // This will impact how browsers show your PWA/website
+        // https://css-tricks.com/meta-theme-color-and-trickery/
+        // theme_color: `#3182ce`
         display: `standalone`,
         icons: [
           {
@@ -47,5 +50,5 @@ module.exports = {
         ],
       },
     },
-  ],
+  ].filter(Boolean),
 }

@@ -7,7 +7,7 @@ Minimalistic portfolio/photography site with masonry grid, page transitions and 
 ## Installation
 
 ```sh
-npm install --legacy-peer-deps
+npm install
 npm run develop
 ```
 
