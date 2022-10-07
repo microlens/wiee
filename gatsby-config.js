@@ -14,6 +14,7 @@ module.exports = {
       options: {
         name: `Only You`,
         socialMedia: [{}],
+        showThemeAuthor: false,
         location: `Vietnam`,
       },
     },
