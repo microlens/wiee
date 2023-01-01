@@ -1,4 +1,4 @@
-# Only You | Photos by Long Nhat Nguyen
+# Only You | The Memories We Make Together
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3172614c-e99b-400a-8a41-5e0b9e67f3b8/deploy-status)](https://app.netlify.com/sites/onlyyou/deploys)
 

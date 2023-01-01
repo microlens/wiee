@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
     siteTitle: `Only You`,
-    siteTitleAlt: `Only You | Long Nhat Nguyen`,
-    siteHeadline: `Only You | Long Nhat Nguyen`,
+    siteTitleAlt: `Only You | The Memories We Make Together`,
+    siteHeadline: `Only You | The Memories We Make Together`,
     siteUrl: `https://onlyyou.netlify.app`,
-    siteDescription: "Photos by Long Nhat Nguyen",
+    siteDescription: "The Memories We Make Together",
     siteImage: `/banner.jpg`,
     author: `@retro90s`,
   },
@@ -28,9 +28,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Only You | Long Nhat Nguyen`,
+        name: `Only You | The Memories We Make Together`,
         short_name: `Only You`,
-        description: `Photos by Long Nhat Nguyen`,
+        description: `The Memories We Make Together`,
         start_url: `/`,
         background_color: `#fff`,
         background_color: `#fff`,
