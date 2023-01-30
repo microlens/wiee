@@ -1,4 +1,6 @@
-module.exports = {
+import type { GatsbyConfig, PluginRef } from "gatsby"
+
+const config: GatsbyConfig = {
   siteMetadata: {
     siteTitle: `Only You`,
     siteTitleAlt: `Only You | The Memories We Make Together`,
@@ -52,5 +54,7 @@ module.exports = {
         ],
       },
     },
-  ].filter(Boolean),
+  ].filter(Boolean) as Array<PluginRef>,
 }
+
+export default config
