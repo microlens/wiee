@@ -2,10 +2,10 @@ import type { GatsbyConfig, PluginRef } from "gatsby"
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    siteTitle: `Only You`,
-    siteTitleAlt: `Only You | The Memories We Make Together`,
-    siteHeadline: `Only You | The Memories We Make Together`,
-    siteUrl: `https://onlyyou.netlify.app`,
+    siteTitle: `WIEE`,
+    siteTitleAlt: `WIEE | The Memories We Make Together`,
+    siteHeadline: `WIEE | The Memories We Make Together`,
+    siteUrl: `https://wiee.netlify.app`,
     siteDescription: "The Memories We Make Together",
     siteImage: `/banner.jpg`,
     author: `@retro90s`,
@@ -15,7 +15,7 @@ const config: GatsbyConfig = {
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       options: {
-        name: `Only You`,
+        name: `WIEE`,
         socialMedia: [{}],
         showThemeAuthor: false,
         location: `Vietnam`,
@@ -30,11 +30,10 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Only You | The Memories We Make Together`,
-        short_name: `Only You`,
+        name: `WIEE | The Memories We Make Together`,
+        short_name: `WIEE`,
         description: `The Memories We Make Together`,
         start_url: `/`,
-        background_color: `#fff`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
