@@ -8,7 +8,7 @@ const config: GatsbyConfig = {
     siteUrl: `https://wiee.netlify.app`,
     siteDescription: "The Memories We Make Together",
     siteImage: `/banner.jpg`,
-    author: `@retro90s`,
+    author: `@torn4dom4n`,
   },
   trailingSlash: `never`,
   plugins: [
@@ -35,9 +35,6 @@ const config: GatsbyConfig = {
         description: `The Memories We Make Together`,
         start_url: `/`,
         background_color: `#fff`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#3182ce`
         display: `standalone`,
         icons: [
           {
@@ -46,8 +43,8 @@ const config: GatsbyConfig = {
             type: `image/png`,
           },
           {
-            src: `/android-chrome-512x512.png`,
-            sizes: `512x512`,
+            src: `/android-chrome-384x384.png`,
+            sizes: `384x384`,
             type: `image/png`,
           },
         ],
