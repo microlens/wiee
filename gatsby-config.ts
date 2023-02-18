@@ -8,6 +8,7 @@ const config: GatsbyConfig = {
     siteUrl: `https://wiee.netlify.app`,
     siteDescription: "The Memories We Make Together",
     siteImage: `/banner.jpg`,
+    siteLanguage: `en`,
     author: `@torn4dom4n`,
   },
   trailingSlash: `never`,
