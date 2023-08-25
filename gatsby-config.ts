@@ -10,7 +10,6 @@ const config: GatsbyConfig = {
     siteImage: `/og-image.jpg`,
     siteLanguage: `en`,
   },
-  trailingSlash: `never`,
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
