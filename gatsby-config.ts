@@ -1,4 +1,4 @@
-import type { GatsbyConfig, PluginRef } from "gatsby"
+import type { GatsbyConfig, PluginRef } from 'gatsby'
 
 const config: GatsbyConfig = {
   siteMetadata: {
@@ -6,7 +6,7 @@ const config: GatsbyConfig = {
     siteTitleAlt: `WIEE | The Memories We Make Together`,
     siteHeadline: `WIEE | The Memories We Make Together`,
     siteUrl: `https://wiee.netlify.app`,
-    siteDescription: "The Memories We Make Together",
+    siteDescription: 'The Memories We Make Together',
     siteImage: `/og-image.jpg`,
     siteLanguage: `en`,
   },
